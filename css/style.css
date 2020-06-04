@@ -393,11 +393,11 @@ ol {
     rgba(252, 227, 138, 0.9) 0%,
     rgba(243, 129, 129, 0.9) 100%
   );
-  -webkit-transition-property: opacity transform, -webkit-box-shadow;
-  transition-property: opacity transform, -webkit-box-shadow;
-  -o-transition-property: opacity transform, box-shadow;
-  transition-property: opacity transform, box-shadow;
-  transition-property: opacity transform, box-shadow, -webkit-box-shadow;
+  -webkit-transition-property: opacity, transform, -webkit-box-shadow;
+  transition-property: opacity, transform, -webkit-box-shadow;
+  -o-transition-property: opacity, transform, box-shadow;
+  transition-property: opacity, transform, box-shadow;
+  transition-property: opacity, transform, box-shadow, -webkit-box-shadow;
   -webkit-transition-duration: 200ms;
   -o-transition-duration: 200ms;
   transition-duration: 200ms;
@@ -432,9 +432,9 @@ ol {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #fce38a;
-  -webkit-transition-property: all 200ms linear;
-  -o-transition-property: all 200ms linear;
-  transition-property: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
 .overlay-team__link:not(:last-child) {
